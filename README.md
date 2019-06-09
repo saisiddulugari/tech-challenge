@@ -4,4 +4,5 @@
 ### follow ReadMe in 'app' folder
 
 
-![](http://www.giphy.com/gifs/Q94ex6DAE0ck1KScy1)
+![Gif Demo](https://media.giphy.com/media/Q94ex6DAE0ck1KScy1/giphy.gif)
+
