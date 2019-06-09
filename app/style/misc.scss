@@ -1,0 +1,246 @@
+// <reference path="./variable.scss" />
+.align-center-table {
+  text-indent: 30px;
+}
+
+
+.pointer
+{
+  cursor: pointer;
+}
+
+.underline 
+{
+  text-decoration: underline;
+}
+
+.border
+{
+  border: solid red 1px;
+}
+
+.mt-s
+{
+  margin-top:$buffer-s;
+}
+.mt-m
+{
+  margin-top:$buffer-m;
+}
+
+.mr-s
+{
+  margin-right:$buffer-s;
+}
+.mr-m
+{
+  margin-right:$buffer-m;
+}
+
+.ml-s
+{
+  margin-left:$buffer-s;
+}
+.ml-m
+{
+  margin-left:$buffer-m;
+}
+
+.ml-lg
+{
+  margin-left:$buffer-lg;
+}
+.ml-xl
+{
+  margin-left:$buffer-xl;
+}
+
+
+.text-rght
+{
+  text-align: right;
+}
+
+.text-center
+{
+  text-align: center;
+}
+
+.floatl {
+    float:left;
+  }
+  
+  .floatr {
+    float:right;
+  }
+  
+  .relative {
+    position:relative
+  }
+
+  .inline {
+    display: inline !important;
+  }
+
+  .width100p {
+    width:100%;
+  }
+  
+  .clear {
+    clear:both;
+  }
+  
+  .mt10 {
+    margin-top:10px;
+  }
+  
+  .mt15 {
+    margin-top:15px;
+  }
+  
+  .mt20 {
+    margin-top:20px !important;
+  }
+  
+  .mt25 {
+    margin-top:25px;
+  }
+
+  
+  .mb0{
+    margin-bottom:0 !important;
+  }
+
+  .mb10 {
+    margin-bottom:10px;
+  }
+  
+  .mb15 {
+    margin-bottom:15px;
+  }
+  
+  .mb20 {
+    margin-bottom:20px;
+  }
+  
+  .mb25 {
+    margin-bottom:25px;
+  }
+  
+  .mb30 {
+    margin-bottom:30px;
+  }
+  
+  .ml0
+  {
+    margin-left:0 !important;
+  }
+
+  .pb0 {
+    padding-bottom:0 !important;
+  }
+
+  .pb10 {
+    padding-bottom:10px;
+  }
+  
+  .pt0 {
+    padding-top:0 !important;
+  }
+
+  .pt4 {
+    padding-top:4px;
+  }
+
+  .pt5 {
+    padding-top:5px;
+  }
+
+  .pt8 {
+    padding-top:8px;
+  }
+
+  .pt15 {
+    padding-top:15px;
+  }
+  .pt44 {
+    padding-top:44px;
+  }
+  
+  .pr30 {
+    padding-right:30px;
+  }
+
+ 
+  
+  .no-text-decoration {
+    text-decoration: none;
+  }
+
+  .pr0{
+    padding-right:0;
+  }
+  
+  .pr24 {
+    padding-right:24px !important;
+  }
+
+  .pl0{
+    padding-left:0;
+  }
+  
+  .pl8 {
+    padding-left: 8px;
+  }
+  
+  .pl12 {
+    padding-left: 12px !important;
+  }
+
+  .pl24 {
+    padding-left: 24px;
+  }
+
+  .pl40 {
+    padding-left: 40px;
+  }
+
+  .pt24 {
+    padding-top: 24px;
+   }
+
+  .pt40 {
+    padding-top: 40px;
+  }
+  
+  .pl-0 {
+    padding-left: 0px;
+  }
+  
+  .pr-0 {
+    padding-right: 0px;
+  }
+
+  .font-color-primary {
+    color: $font-color-primary !important;
+  }
+
+  .font-color-primary {
+    color: $font-color-primary !important;
+  }
+
+  .font-color-medium {
+    color: $font-color-medium !important;
+  }
+
+  .color-primary-dark {
+    color: $primary-color-dark !important;
+  }
+  
+  .warning-alert-color {
+    color: $warning-alert-color !important;
+  }
+
+  .error-alert-color {
+    color: $error-alert-color !important;
+  }

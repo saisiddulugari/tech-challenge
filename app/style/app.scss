@@ -1,0 +1,38 @@
+// DO NOT ADD ANY STYLE HERE! O.O
+
+
+/*------------------------------------------------------------------
+Vuetify CSS
+*/
+@import '~vuetify/dist/vuetify.min.css';
+
+
+/*------------------------------------------------------------------
+Variables
+*/
+@import './variables.scss';
+
+
+/*------------------------------------------------------------------
+Vuetify Override
+*/
+@import './vuetify_override.scss';
+
+
+/*------------------------------------------------------------------
+[Overrides - Typography] -> Move into own file later
+*/
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600');
+
+
+/*------------------------------------------------------------------
+Common styles
+*/
+@import './misc.scss';
+
+
+/*------------------------------------------------------------------
+Global Style
+*/
+@import './global.scss';

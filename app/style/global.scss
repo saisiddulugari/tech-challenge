@@ -1,0 +1,280 @@
+// <reference path="./variable.scss" />
+
+
+body
+{
+  .application
+  {
+    font-family: $font-family-primary;
+    letter-spacing: $letter-spacing-xl;
+  }
+}
+
+h1,
+.h1,
+.v-display-4 {
+  font-family: $font-family-secondary;
+  font-weight: $font-weight-light;
+  font-size: $font-size-heading-1;
+  letter-spacing: $letter-spacing-xxxxxs;
+}
+
+h2,
+.h2,
+.v-display-3 {
+  font-family: $font-family-secondary;
+  font-weight: $font-weight-light;
+  font-size: $font-size-heading-2;
+  letter-spacing: $letter-spacing-xs;
+}
+
+h3,
+.h3,
+.v-display-2 {
+  font-family: $font-family-secondary;
+  font-weight: $font-weight-normal;
+  font-size: $font-size-heading-3;
+  letter-spacing: $letter-spacing-m;
+}
+
+h4,
+.h4,
+.v-display-1 {
+  font-family: $font-family-secondary;
+  font-weight: $font-weight-normal !important;
+  font-size: $font-size-heading-4 !important;
+  letter-spacing: $letter-spacing-lg !important;
+}
+
+h5,
+.h5,
+.v-headline {
+  font-family: $font-family-secondary;
+  font-weight: $font-weight-normal !important;
+  font-size: $font-size-heading-5 !important;
+  letter-spacing: $letter-spacing-m !important;
+  margin-top: $buffer-s;
+  margin-left: $buffer-s;
+  margin-bottom: $buffer-m;
+}
+
+h6,
+.h6,
+.v-title {
+  font-family: $font-family-secondary !important;
+  font-weight: $font-weight-normal !important;
+  font-size: $font-size-heading-6 !important;
+  letter-spacing: $letter-spacing-lg !important;
+}
+
+body,
+.body,
+.v-body-1 {
+  font-family: $font-family-primary;
+  font-weight: $font-weight-normal;
+  font-size: $font-size-m;
+  letter-spacing: $letter-spacing-xl;
+}
+
+.v-body-2 {
+  font-family: $font-family-primary;
+  font-weight: $font-weight-normal;
+  font-size: $font-size-s;
+  letter-spacing: $letter-spacing-lg;
+}
+
+.v-btn {
+  font-family: $font-family-primary;
+  font-weight: $font-weight-bolder !important;
+  font-size: $font-size-s !important;
+  letter-spacing: $letter-spacing-xxxxl !important;
+}
+
+.v-btn-styling {
+  font-family: $font-family-primary;
+  font-weight: $font-weight-bolder;
+  font-size: $font-size-s;
+  letter-spacing: $letter-spacing-xxxxl;
+}
+
+.v-subheading {
+  font-family: $font-family-primary;
+  font-weight: $font-weight-normal;
+  font-size: $font-size-m;
+  letter-spacing: $letter-spacing-lg;
+}
+
+.v-caption {
+  font-family: $font-family-primary;
+  font-weight: $font-weight-normal;
+  font-size: $font-size-xs;
+  letter-spacing: $letter-spacing-xl;
+}
+
+.v-overline {
+  font-family: $font-family-primary;
+  font-size: $font-size-xs;
+  letter-spacing: $letter-spacing-xxxxxxxl;
+}
+
+.page-save-btn {
+  min-width: 96px;
+  max-width: 96px;
+  max-height: 36px;
+  min-height: 36px;
+  color: black !important;
+  background-color: $button-background-color-primary !important;
+}
+
+.outline-card-btn {
+  min-width: 96px;
+  height: 36px;
+  color: $primary-color !important;
+  border-color: rgba(0, 0, 0, 0.12) !important;
+}
+
+.app-spinner.md-progress-spinner {
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+  left: 50%;
+  margin-left: -10px;
+}
+
+.meta-id {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+
+//////////////////////////////// Card
+
+.v-card {
+
+  .dialog-actions{
+    button.v-btn{
+      color:#2b7939 !important;
+    }
+  }
+
+  &.default-card {
+    border-radius: 5px;
+    margin-bottom: $buffer-lg;
+
+    .v-card__title
+    {
+      background: rgba(181, 203, 183, 0.4996);
+      padding: $buffer-lg;
+
+      .card-title-content
+      {
+        width:100%;
+        font-size:$font-size-heading-5;
+        font-weight: $font-weight-bold;
+        font-family: $font-family-secondary;
+      }
+
+      .v-btn {
+        background-color: $button-background-color-primary !important;
+        min-width: 120px;
+        margin: 0px;
+      }
+    }
+
+
+
+    .v-card__text
+    {
+      padding-left: $buffer-lg;
+      padding-right: $buffer-lg;
+
+      .card-body-subheader
+      {
+        color: $font-color-primary;
+        margin-top: $buffer-xs;
+
+        .v-title {
+          .v-icon {
+            color: inherit;
+          }
+        }
+      }
+
+      .v-empty-title {
+        text-align: center;
+        color: rgba(0, 0, 0, 0.6);
+        border: 1px dashed #979797;
+        padding: 50px;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+      }
+
+      &.full-width
+      {
+        padding-left: 0;
+        padding-right: 0;
+
+        .v-title
+        {
+          padding-left: $buffer-lg;
+          margin-bottom: $buffer-lg;
+        }
+
+  
+
+        .v-datatable 
+        {
+          thead{
+            tr
+            {
+              height:auto;
+              border-top: 1px solid rgba(0,0,0,0.12);
+              th
+              {
+                padding-top:$buffer-m;
+                padding-bottom:$buffer-m;
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+
+.btn-secondary
+{
+  background-color:#fff !important;
+  color:$primary-color !important;
+  box-shadow: none !important;
+  border:solid 1px $primary-color-light-1;
+  border-radius:5px;
+}
+
+// warning and error alert background colors
+.v-alert.warning {
+  background-color: $warning-alert-color !important;
+}
+
+.v-alert.error {
+  background-color: $error-alert-color !important;
+}
+
+//no transitions
+.no-transition {
+  -moz-transition: none !important;
+  -webkit-transition: none !important; 
+  -o-transition: color 0 ease-in !important;
+  transition: none !important;
+  }
+
+//prevent user from hihglighting stuff/
+.disable-select{
+ user-select:none;
+ -moz-user-select:none;
+ -webkit-user-select:none;
+}
